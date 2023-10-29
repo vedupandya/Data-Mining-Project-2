@@ -11,6 +11,15 @@
 
 ## Project Summary: 
 
+In our project we did the following:
+- There were 73 columns and many of them had a large amount of null entries so we couldn't simply drop them. Therefore, we replaced the null values in some columns with the median of the respective column.
+- Label Encoding and transforming: There were many categorical features, so we used Label Encoding in preprocessing for the ordinal categorical columns. There were some other non-numeric columns (e.g date) so we transformed them in numeric (e.g duration).
+- Visualization: We visualized the distribution of some important features using histograms and count plots.
+- Creating New Features: We created 3 new features by combining other features to yield more useful ones.
+- Correlation Plot and Feature Selection
+- Model Selection and Training: We trained two types of classification models, Logistic Regression and Random Forest Classifier. The data was severly imbalanced so we trained the models on the normal dataset and a balanced dataset formed through oversampling.
+- Model Tuning: We tuned the model using GridSearchCV based on the f1-score metric.
+- Evaluation: We evaluated the models based on Accuracy, Precision, Recall and ROC-AUC score.
 
 ## Possible Problems on the Dataset:
  
